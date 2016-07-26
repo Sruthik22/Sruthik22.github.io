@@ -11,74 +11,6 @@ html,body {
     height:100%;
 }
 
-.img-portfolio {
-    margin: 0 auto;
-}
-.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-img {
-    vertical-align: middle;
-}
-
-.imagetext {
-    color: white;
-    font-size: 50px;
-    position: absolute;
-    top: 40%;
-    left: 0;
-    width: 100%;
-    font-family: BrandonBlack;
-    text-align: center;
-}
-
-.Portfolio {
-    background-color: #262626;
-}
-
-.portfolio-box .portfolio-box-caption {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: #fff;
-    opacity: 0;
-    background: #262626;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 300;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    padding: 0 15px;
-    font-family: BrandonBlack, sans-serif;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px;
-}
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    padding: 0 15px;
-    font-family: BrandonMedium, sans-serif;
-}
-
 #carousel-example-generic {
     width: 100%;
     height: 100%;
@@ -282,4 +214,89 @@ video {
 @font-face {
     font-family: "BrandonRegular";
     src: url("fonts/brandon_reg-webfont.woff") format('woff');
+}
+
+/*This is for the Portfolio Div*/
+
+.Portfolio {
+    background-color: #262626;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+    /*opacity: 0.7;*/
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+.portfolio {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.portfolio-box {
+    display: block;
+    position: relative;
+    margin: 15px 0 15px 0;
+    max-width: 650px;
+}
+
+.portfolio-box .portfolio-box-caption {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    opacity: 0;
+    background: #262626;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    padding: 0 15px;
+    font-family: BrandonBlack, sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+    opacity: 0.8;
+}
+
+.imagetext {
+  color: white;
+  font-size: 50px;
+  position:absolute;
+  top: 40%;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-family: BrandonBlack;
 }

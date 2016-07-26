@@ -120,6 +120,7 @@ video {
     font-family: BrandonBold;
     font-size: 35px;
     color: white;
+    margin-top: 5%;
 }
 
 #amsaText {
@@ -158,7 +159,7 @@ video {
 
 .Contact {
     background-color: #003554;
-    padding-bottom: 35px;
+    height: 35%;
 }
 
 .PortfolioTextTitle {

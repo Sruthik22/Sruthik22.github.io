@@ -128,9 +128,11 @@ video {
     font-size: 35px;
     font-family: BrandonMedium;
     margin-top: 200px;
+}
+
+.vcenter {
     display: inline-block;
     vertical-align: middle;
-    line-height: normal;
 }
 
 #mailText {
@@ -193,7 +195,6 @@ video {
     background-size:cover;
     height: 75%;
     text-align: center;
-    line-height: 75%;
 }
 
 .portfolioImage {

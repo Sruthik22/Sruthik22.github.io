@@ -15,37 +15,24 @@
         <link rel="stylesheet" href="style.css">
         
         <script type="text/javascript">
-		$(document).ready(function(){
-			var scroll_start = 0;
-			var startchange = $('.navbar-custom');
-			var offset = startchange.offset();
-			$(document).scroll(function() {      
-				scroll_start = $(this).scrollTop();
-				if(scroll_start > offset.top) {
-					$('.navbar-custom').css('background-color', 'rgba(34,34,34,0.9)');
-				} else {
-					$('.navbar-custom').css('background-color', 'transparent');
-				}
-			});
-		});
-		$(function() {
-			$('.smoothScroll').click(function() {
-				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-					if (target.length) {
-						$('html,body').animate({
-							scrollTop: target.offset().top
-						}, 1000);
-						return false;
-					}
-				}
-			});
-		});
+		  $(document).ready(function(){       
+   var scroll_start = 0;
+   var startchange = $('#Home');
+   var offset = startchange.offset();
+    if (startchange.length){
+   $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > offset.top) {
+          $(".navbar-default").css('background-color', '#f0f0f0');
+       } else {
+          $('.navbar-default').css('background-color', 'transparent');
+       }
+   });
+    }
+});
 	</script>
     </head>
     <body>
-        <div id = "test"></div>
         <nav class="navbar navbar-fixed-top navbar-custom">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->

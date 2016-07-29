@@ -16,19 +16,14 @@
         
         <script type="text/javascript">
 		  $(document).ready(function(){       
-   var scroll_start = 0;
-   var startchange = $('#Home');
-   var offset = startchange.offset();
-    if (startchange.length){
    $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top) {
-          $(".navbar-default").css('background-color', '#f0f0f0');
-       } else {
-          $('.navbar-default').css('background-color', 'transparent');
-       }
-   });
+    scroll_start = $(this).scrollTop();
+    if(scroll_start > offset.top) {
+        $('nav.navbar-custom').css('background-color', 'rgba(38, 38, 38, 0.8)');
+    } else {
+        $('nav.navbar-custom').css('background-color', 'transparent');
     }
+});
 });
 	</script>
     </head>

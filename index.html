@@ -19,6 +19,7 @@
 			var startchange = $('.navbar');
 			var offset = startchange.offset();
 			$(document).scroll(function() { 
+				console.log("Document is being scrolled");
 				scroll_start = $(this).scrollTop();
 				if(scroll_start > offset.top) {
 					$('.navbar').css('background-color', 'rgba(34,34,34,0.9)');

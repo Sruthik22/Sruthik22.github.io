@@ -14,18 +14,16 @@
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
         <script type="text/javascript">
-		$(document).ready(function(){
-			console.log("JS is working");
+		$(document).ready(function(){       
 			var scroll_start = 0;
-			var startchange = $('.navbar');
+			var startchange = $('.Navbar');
 			var offset = startchange.offset();
 			$(document).scroll(function() { 
-				console.log("Document is being scrolled");
 				scroll_start = $(this).scrollTop();
 				if(scroll_start > offset.top) {
-					$('.navbar').css('background-color', 'rgba(34,34,34,0.9)');
+					$('.Navbar').css('background-color', 'rgba(34,34,34,0.9)');
 				} else {
-					$('.navbar').css('background-color', 'transparent');
+					$('.Navbar').css('background-color', 'transparent');
 				}
 			});
 		});
@@ -47,31 +45,17 @@
         
     </head>
     <body>
-        <nav class="navbar navbar-fixed-top navbar-custom">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand smoothScroll" href="#Home">Sruthi Kurada</a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <div class="nav navbar-nav navbar-right">
-                        <a class="navbar-brand nav-elements smoothScroll" href="#Home">Home</a>
-                        <a class="navbar-brand nav-elements smoothScroll" href="#About">About</a>
-                        <a class="navbar-brand nav-elements smoothScroll" href="#Skills">Skills</a>
-                        <a class="navbar-brand nav-elements smoothScroll" href="#Portfolio">Portfolio</a>
-                        <a class="navbar-brand nav-elements smoothScroll" href="#Contact">Contact</a>
-                    </div>
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
+        <div class = "Navbar">
+			<div class = "NavRight"><a href = "#Home" class = "smoothScroll">Abhinav Kurada</a></div>
+			<ul>
+				<li><a href = "#Contact" class = "smoothScroll">CONTACT</a></li>
+				<li><a href = http://akurada.tech/blog/ class = "smoothScroll">BLOG</a></li>
+				<li><a href = "#Portfolio" class = "smoothScroll">PORTFOLIO</a></li>
+				<li><a href = "#Skills" class = "smoothScroll">SKILLS</a></li>
+				<li><a href = "#About" class = "smoothScroll">ABOUT</a></li>
+				<li><a href = "#Home" class = "smoothScroll">HOME</a></li>
+			</ul>
+		</div>
         <a name = "Home"></a>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->

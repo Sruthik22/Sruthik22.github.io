@@ -13,35 +13,6 @@
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="style.css">
-        <script type="text/javascript">
-		$(document).ready(function(){       
-			var scroll_start = 0;
-			var startchange = $('.Navbar');
-			var offset = startchange.offset();
-			$(document).scroll(function() { 
-				scroll_start = $(this).scrollTop();
-				if(scroll_start > offset.top) {
-					$('.Navbar').css('background-color', 'rgba(34,34,34,0.9)');
-				} else {
-					$('.Navbar').css('background-color', 'transparent');
-				}
-			});
-		});
-		$(function() {
-			$('.smoothScroll').click(function() {
-				if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-					var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-					if (target.length) {
-						$('html,body').animate({
-							scrollTop: target.offset().top
-						}, 1000);
-						return false;
-					}
-				}
-			});
-		});
-	</script>
         
     </head>
     <body>

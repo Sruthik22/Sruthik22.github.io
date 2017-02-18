@@ -155,6 +155,8 @@ video {
 
 .Contact {
     height: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
     background-image: url(Images/ContactBackgroundImage.jpg);
     background-repeat: no-repeat;
     background-size:cover;

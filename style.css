@@ -117,17 +117,15 @@ video {
 }
 
 #ContactTitle {
-    font-family: BrandonBold;
-    font-size: 35px;
+    font-family: BrandonBlack;
+    font-size: 125px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 1.5;
     color: white;
     margin-top: 5%;
-}
-
-#amsaText {
-    color: white;
-    font-size: 35px;
-    font-family: BrandonMedium;
-    margin-top: 200px;
 }
 
 .vcenter {
@@ -145,12 +143,6 @@ video {
     color: white;
 }
 
-.social {
-    color: white;
-    font-size: 50px;
-    text-align: center;
-}
-
 .center {
     text-align: center;
     margin: auto;
@@ -163,8 +155,11 @@ video {
 }
 
 .Contact {
-    background-color: #003554;
-    height: 35%;
+    height: 100%;
+    background-image: url(Images/ContactBackgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
 }
 
 .PortfolioTextTitle {
@@ -187,14 +182,6 @@ video {
     color: #262626;
     font-size: 25px;
     font-family: BrandonMedium;
-}
-
-.AMSA {
-    background-image: url(Images/AMSA.PNG);
-    background-repeat: no-repeat;
-    background-size:cover;
-    height: 75%;
-    text-align: center;
 }
 
 .portfolioImage {
@@ -307,4 +294,76 @@ video {
   margin: auto;
   text-align: center;
   font-family: BrandonBlack;
+}
+
+
+/*GROW*/
+.grow img {
+    width: 150px;
+  height: 150px;
+  opacity: 0.7; 
+
+
+  -webkit-transition: width 1s, height 1s, margin 1s;
+    -moz-transition: width 1s, height 1s, margin 1s;
+    -ms-transition: width 1s, height 1s, margin 1s;
+    transition: width 1s, height 1s, margin 1s;
+}
+
+.grow img:hover {
+  opacity: 1; 
+}
+
+#contact-diamond {
+    text-align: center;
+    background-image: url(Images/ContactCircle.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+form {
+ max-width: 600px;
+ text-align: center;
+}
+
+input, textarea {
+   border:0; 
+   outline:0;
+   padding: 1em;
+   display: block;
+   width: 100%;
+   margin-top: 1em;
+   font-family: BrandonBlack;
+   box-shadow: 0 1px 1px rgba(black, 0.1);
+   resize: none;
+}
+
+input, textarea:focus {
+ box-shadow: 0 0px 2px rgba(#00AEB2, 1)!important;
+}
+
+#input-submit {
+    color: white;
+   cursor: pointer;
+   background-color: #00AEB2;
+}
+
+#input-submit:hover {
+ box-shadow: 0 1px 1px 1px rgba(#aaa, 0.6); 
+}
+
+textarea {
+  height: 126px;
+}
+
+
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
 }

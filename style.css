@@ -271,7 +271,8 @@ ul.portfolio-image li .desc{
   right: 0;
   text-align: center;
   color: #2f2f2f;
-  font-size: 14px;
+  font-family: BrandonRegular;
+  font-size: 24px;
   font-weight: 700;
 }
 

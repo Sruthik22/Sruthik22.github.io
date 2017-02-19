@@ -308,23 +308,10 @@ video {
     width: 150px;
   height: 150px;
   opacity: 0.7; 
-
-
-  -webkit-transition: width 1s, height 1s, margin 1s;
-    -moz-transition: width 1s, height 1s, margin 1s;
-    -ms-transition: width 1s, height 1s, margin 1s;
-    transition: width 1s, height 1s, margin 1s;
 }
 
 .grow img:hover {
   opacity: 1; 
-}
-
-#contact-diamond {
-    text-align: center;
-    background-image: url(Images/ContactCircle.png);
-    background-repeat: no-repeat;
-    background-size:cover;
 }
 
 form {

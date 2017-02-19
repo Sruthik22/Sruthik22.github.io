@@ -94,6 +94,10 @@ html,body {
     font-family: BrandonRegular;
 }
 
+.skillsIcon {
+    color: white;
+}
+
 /*Contact Div*/
 
 .Contact {

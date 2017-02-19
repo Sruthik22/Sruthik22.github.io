@@ -94,8 +94,13 @@ video {
 #PortfolioTitle {
     padding-top: 35px;
     padding-bottom: 35px;
-    font-family: BrandonBold;
-    font-size: 35px;
+    font-family: BrandonBlack;
+    font-size: 125px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 1.5;
     color: white;
 }
 

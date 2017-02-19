@@ -40,6 +40,15 @@ html,body {
     margin-top: 40px;
 }
 
+/*About Div*/
+
+#about-descript {
+    font-family: BrandonBlack;
+    font-size: 35px;
+    color: #262626;
+    margin-top: 40px;
+}
+
 #Intro {
     font-family: BrandonBlack;
     font-size: 75px;
@@ -54,13 +63,6 @@ html,body {
     margin-top: 40px;
 }
 
-#about-descript {
-    font-family: BrandonBlack;
-    font-size: 35px;
-    color: #262626;
-    margin-top: 40px;
-}
-
 #sruthi-picture {
     background-image: url(Images/FaceShot.png);
     width: 260px;
@@ -70,13 +72,6 @@ html,body {
     border-radius: 200px;
     margin: auto;
     text-align: center;
-}
-
-video {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
 }
 
 /*Skills Div*/
@@ -97,70 +92,6 @@ video {
     color: #262626;
     font-size: 16px;
     font-family: BrandonRegular;
-}
-
-
-
-
-.vcenter {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-#mailText {
-    color: white;
-    font-size: 17.5px;
-    font-family: BrandonRegular;
-}
-
-.center {
-    text-align: center;
-    margin: auto;
-}
-
-
-
-
-
-
-
-.btn {
-    border-radius: 28px;
-}
-
-.PortfolioTextHeader {
-    color: #262626;
-    font-size: 35px;
-    font-family: BrandonMedium;
-}
-
-.PortfolioBodyText {
-    color: #262626;
-    font-size: 25px;
-    font-family: BrandonMedium;
-}
-
-.portfolioImage {
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    margin: auto;
-}
-
-
-
-
-
-.imagetext {
-  color: white;
-  font-size: 50px;
-  position:absolute;
-  top: 40%;
-  left: 0;
-  width: 100%;
-  margin: auto;
-  text-align: center;
-  font-family: BrandonBlack;
 }
 
 /*Contact Div*/

@@ -197,6 +197,12 @@ textarea {
     color: white;
 }
 
+#HiveSwarm {
+    background-image: url(Images/Bee.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
 ul.portfolio-image {
   list-style: none;
   position: relative;

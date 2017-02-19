@@ -203,6 +203,13 @@ textarea {
     background-size:cover;
 }
 
+.descTitle {
+    font-family: BrandonMedium;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
 ul.portfolio-image {
   list-style: none;
   position: relative;

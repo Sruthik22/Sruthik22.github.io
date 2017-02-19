@@ -79,7 +79,7 @@ video {
     height: auto;
 }
 
-
+/*Skills Div*/
 
 #SkillsTitle {
     font-family: BrandonBold;
@@ -87,6 +87,11 @@ video {
     color: #262626;
 }
 
+.SkillsTextTitle {
+    color: #262626;
+    font-size: 16px;
+    font-family: BrandonMedium;
+}
 
 
 
@@ -115,11 +120,7 @@ video {
 
 
 
-.PortfolioTextTitle {
-    color: #262626;
-    font-size: 16px;
-    font-family: BrandonMedium;
-}
+
 
 .btn {
     border-radius: 28px;

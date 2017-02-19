@@ -3,6 +3,8 @@ html,body {
     overflow-x: hidden;
 }
 
+/* Carousel Div*/
+
 .carousel,.item,.active {
     height:100%;
 }
@@ -59,57 +61,6 @@ html,body {
     margin-top: 40px;
 }
 
-nav {
-    text-transform: uppercase;
-    border-bottom: 10px solid #EBEBEB;
-}
-
-video {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-}
-
-.navbar {
-    border-bottom: 1px solid white;
-    width: 100%;
-}
-
-.navbar-brand {
-    font-size: 13px;
-    color: #EBEBEB;
-    font-family: BrandonBlack;
-    font-weight: 15;
-}
-
-.navbar-brand:hover {
-    color: #FBFBFB;
-}
-
-.nav-elements {
-    margin-right: 30px;
-}
-
-#PortfolioTitle {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    font-family: BrandonBlack;
-    font-size: 125px;
-    text-transform: uppercase;
-    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
-    font-weight: 400;
-    letter-spacing: 8px;
-    line-height: 1.5;
-    color: white;
-}
-
-#SkillsTitle {
-    font-family: BrandonBold;
-    font-size: 35px;
-    color: #262626;
-}
-
 #sruthi-picture {
     background-image: url(Images/FaceShot.png);
     width: 260px;
@@ -121,16 +72,24 @@ video {
     text-align: center;
 }
 
-#ContactTitle {
-    font-family: BrandonBlack;
-    font-size: 125px;
-    text-transform: uppercase;
-    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
-    font-weight: 400;
-    letter-spacing: 8px;
-    line-height: 1.5;
-    color: white;
+video {
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
 }
+
+
+
+#SkillsTitle {
+    font-family: BrandonBold;
+    font-size: 35px;
+    color: #262626;
+}
+
+
+
+
 
 .vcenter {
     display: inline-block;
@@ -141,10 +100,6 @@ video {
     color: white;
     font-size: 17.5px;
     font-family: BrandonRegular;
-}
-
-.portfolioIcon {
-    color: white;
 }
 
 .center {
@@ -158,15 +113,7 @@ video {
     font-family: BrandonRegular;
 }
 
-.Contact {
-    height: 100%;
-    padding-top: 35px;
-    padding-bottom: 35px;
-    background-image: url(Images/ContactBackgroundImage.jpg);
-    background-repeat: no-repeat;
-    background-size:cover;
-    text-align: center;
-}
+
 
 .PortfolioTextTitle {
     color: #262626;
@@ -197,98 +144,9 @@ video {
     margin: auto;
 }
 
-@font-face {
-    font-family: "BrandonBlack";
-    src: url("fonts/brandon_blk-webfont.woff") format('woff');
-}
 
-@font-face {
-    font-family: "BrandonBold";
-    src: url("fonts/brandon_bld-webfont.woff") format('woff');
-}
 
-@font-face {
-    font-family: "BrandonMedium";
-    src: url("fonts/brandon_med-webfont.woff") format('woff');
-}
 
-@font-face {
-    font-family: "BrandonRegular";
-    src: url("fonts/brandon_reg-webfont.woff") format('woff');
-}
-
-/*This is for the Portfolio Div*/
-
-.Portfolio {
-    background-color: #262626;
-}
-
-.img-portfolio {
-    margin: 0 auto;
-    /*opacity: 0.7;*/
-}
-
-.img-portfolio:hover {
-    opacity: 0.8;
-}
-
-.portfolio {
-    padding: 50px 0;
-}
-
-.portfolio-item {
-    margin-bottom: 30px;
-}
-
-.portfolio-box {
-    display: block;
-    position: relative;
-    margin: 15px 0 15px 0;
-    max-width: 650px;
-}
-
-.portfolio-box .portfolio-box-caption {
-    display: block;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    color: #fff;
-    opacity: 0;
-    background: #262626;
-    -webkit-transition: all .35s;
-    -moz-transition: all .35s;
-    transition: all .35s;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    transform: translateY(-50%);
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    padding: 0 15px;
-    font-family: BrandonBlack, sans-serif;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    text-transform: uppercase;
-    font-size: 24px;
-    font-weight: 300;
-}
-
-.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 18px;
-}
-
-.portfolio-box:hover .portfolio-box-caption {
-    opacity: 0.8;
-}
 
 .imagetext {
   color: white;
@@ -302,8 +160,29 @@ video {
   font-family: BrandonBlack;
 }
 
+/*Contact Div*/
 
-/*GROW*/
+.Contact {
+    height: 100%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-image: url(Images/ContactBackgroundImage.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+#ContactTitle {
+    font-family: BrandonBlack;
+    font-size: 125px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 1.5;
+    color: white;
+}
+
 .grow img {
     width: 150px;
   height: 150px;
@@ -359,6 +238,25 @@ textarea {
 
 .cf:after {
     clear: both;
+}
+
+/* Portfolio */
+
+.Portfolio {
+    background-color: #262626;
+}
+
+#PortfolioTitle {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-family: BrandonBlack;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
+    font-weight: 400;
+    letter-spacing: 8px;
+    line-height: 1.5;
+    color: white;
 }
 
 ul.portfolio-image {
@@ -442,4 +340,26 @@ ul.portfolio-image li .desc{
   color: #2f2f2f;
   font-size: 14px;
   font-weight: 700;
+}
+
+/* All the Fonts */
+
+@font-face {
+    font-family: "BrandonBlack";
+    src: url("fonts/brandon_blk-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "BrandonBold";
+    src: url("fonts/brandon_bld-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "BrandonMedium";
+    src: url("fonts/brandon_med-webfont.woff") format('woff');
+}
+
+@font-face {
+    font-family: "BrandonRegular";
+    src: url("fonts/brandon_reg-webfont.woff") format('woff');
 }

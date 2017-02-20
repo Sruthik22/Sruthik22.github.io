@@ -265,10 +265,9 @@ ul.portfolio-image li .image-bg {
   color: transparent;
 }
 ul.portfolio-image li .desc{
-top: 60%;
-transform: translateY(-60%); 
-    
+position: absolute;
   z-index: 1;
+  top: 45%;
   left: 0;
   display: table-cell;
   right: 0;

@@ -184,19 +184,6 @@ textarea {
     background-color: #262626;
 }
 
-#PortfolioTitle {
-    padding-top: 35px;
-    padding-bottom: 35px;
-    font-family: BrandonBlack;
-    font-size: 45px;
-    text-transform: uppercase;
-    text-shadow: 0 0 1px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.3);
-    font-weight: 400;
-    letter-spacing: 8px;
-    line-height: 1.5;
-    color: white;
-}
-
 #HiveSwarm {
     background-image: url(Images/Bee.png);
     background-repeat: no-repeat;
@@ -208,15 +195,15 @@ textarea {
     font-size: 30px;
     font-weight: bold;
     
-    position: absolute;
   z-index: 1;
-  top: 35%;
+  position: relative;
+top: 40%;
+transform: translateY(-40%); 
   left: 0;
   display: table-cell;
   right: 0;
   text-align: center;
   color: #2f2f2f;
-  font-weight: 1000;
 }
 
 ul.portfolio-image {
@@ -285,9 +272,12 @@ ul.portfolio-image li .image-bg {
   color: transparent;
 }
 ul.portfolio-image li .desc{
-  position: absolute;
+    
+    position: relative;
+top: 60%;
+transform: translateY(-60%); 
+    
   z-index: 1;
-  top: 45%;
   left: 0;
   display: table-cell;
   right: 0;

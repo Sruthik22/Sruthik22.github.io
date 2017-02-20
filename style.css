@@ -190,15 +190,6 @@ textarea {
     background-size:cover;
 }
 
-.descTitle {
-    font-family: BrandonMedium;
-    font-size: 30px;
-    font-weight: bold;
-  text-align: center;
-  color: #2f2f2f;
-    top: 80%;
-}
-
 ul.portfolio-image {
   list-style: none;
   position: relative;

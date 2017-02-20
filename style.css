@@ -265,13 +265,18 @@ ul.portfolio-image li .image-bg {
   color: transparent;
 }
 ul.portfolio-image li .desc{
+top: 60%;
+transform: translateY(-60%); 
+    
+  z-index: 1;
+  left: 0;
+  display: table-cell;
+  right: 0;
   text-align: center;
   color: #2f2f2f;
   font-family: BrandonRegular;
   font-size: 24px;
   font-weight: 700;
-    
-    top: 100%;
 }
 
 /* All the Fonts */

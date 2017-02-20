@@ -196,6 +196,7 @@ textarea {
     font-weight: bold;
   text-align: center;
   color: #2f2f2f;
+    top: 40%;
 }
 
 ul.portfolio-image {
@@ -269,6 +270,8 @@ ul.portfolio-image li .desc{
   font-family: BrandonRegular;
   font-size: 24px;
   font-weight: 700;
+    
+    top: 60%;
 }
 
 /* All the Fonts */

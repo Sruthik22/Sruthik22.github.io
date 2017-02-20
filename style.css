@@ -196,7 +196,7 @@ textarea {
     font-weight: bold;
   text-align: center;
   color: #2f2f2f;
-    top: 40%;
+    top: 80%;
 }
 
 ul.portfolio-image {
@@ -271,7 +271,7 @@ ul.portfolio-image li .desc{
   font-size: 24px;
   font-weight: 700;
     
-    top: 60%;
+    top: 100%;
 }
 
 /* All the Fonts */

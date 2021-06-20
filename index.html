@@ -1,244 +1,547 @@
-        <!DOCTYPE html>
-        <html lang = "en">
-        <head>
-            <meta charset="utf-8">
-            <title>Sruthi Kurada</title>
-            <meta name="description" content="Sruthi Kurada's Personal Website">
-            <meta name="author" content="Sruthi Kurada">
-            <!-- CSS Stylesheets -->
-            <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-            <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-            <!-- Include all compiled plugins (below), or include individual files as needed -->
-            <script src="bootstrap/js/bootstrap.min.js"></script>
-            <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="style.css">
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Sruthi Kurada</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<meta name="author" content="" />
 
-        </head>
-        <body>
-            <a name = "Home"></a>
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                        <img src="Images/Robotics.jpg" alt="FLL Robotics Robot">
-                        <div class="carousel-caption">
-                            <h1>Innovator</h1>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="Images/Math.jpg" alt="Math on a chalkboard">
-                        <div class="carousel-caption">
-                            <h1>Math Enthusiast</h1>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <img src="Images/PythonCode.png" alt="Python Code on Computer">
-                        <div class="carousel-caption">
-                            <h1>Coder</h1>
-                        </div>
-                    </div>
-                </div>
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-            </div>
-            <!--About Me-->
-            <a name="About" id = "About"></a>
-            <div class = "About">
-                <div class="container">
-                    <br>
-                    <div id="sruthi-picture"></div>
-                    <div class="row">
-                        <div class = "col-md-1 col-xs-1"></div>
-                        <div class="col-md-10 col-xs-10 text-center" id="Intro">
-                            My name is Sruthi Kurada
-                        </div>
-                        <div class = "col-xs-1"></div>
-                    </div>
-                    <div class="row">
-                        <div class = "col-xs-1"></div>
-                        <div class="col-xs-10 text-center" id = "Subtitle">
-                         I am a 7th grader who enjoys going to math competitions and programming. 
-                     </div>
-                 </div>
-                 <br> 
-                 <div class="row">
-                    <div class = "col-xs-1"></div>
-                    <div class="col-xs-10 text-center" id = "about-descript">
-                        I have created websites with HTML, CSS, and JavaScript and have launched Android Apps to the Google Play store. I also enjoy making games and working on hackathon projects in Python. 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class = "col-xs-1"></div>
-                    <div class="col-xs-10 text-center" id = "about-descript">
-                        My latest app called HiveSwarm received an endorsement from the Massachusetts Department of Agricultural Resources.  
+  <!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-                        In the future, I am interested in pursuing machine learning applications to aid the healthcare and biotechnology sector. 
-                    </div>
-                </div>
-                <br>
-            </div>
-        </div>
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖥</text></svg>">
 
-        <a name="Skills"></a>
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-lg-10 col-lg-offset-1">
-                    <h2 id = "SkillsTitle">Skills</h2>
-                    <div class="row">
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-users fa-stack-1x text-primary skillsIcon" aria-hidden="true"></i>
-                                </span>
-                                <h4>
-                                    <strong class = "SkillsTextTitle">Leadership</strong>
-                                </h4>
-                                <br>
-                                <p class = "SkillsTextTitleDescription"> Taught several members on my FLL team how to code, and the basics of building a robot</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-android fa-stack-1x text-primary skillsIcon" aria-hidden="true"></i>
-                                </span>
-                                <h4>
-                                    <strong class = "SkillsTextTitle">App Developement</strong>
-                                </h4>
-                                <br>
-                                <p class = "SkillsTextTitleDescription"> Learning Android Development and currently working on Udacity Nanodegree </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-code fa-stack-1x text-primary skillsIcon" aria-hidden="true"></i>
-                                </span>
-                                <h4>
-                                    <strong class = "SkillsTextTitle">Python</strong>
-                                </h4>
-                                <br>
-                                <p class = "SkillsTextTitleDescription"> Well versed in Python Application Development as well as Django Framework. </p>
-                            </div>
-                        </div>
-                        <div class="col-md-3 col-sm-6">
-                            <div class="service-item">
-                                <span class="fa-stack fa-4x">
-                                    <i class="fa fa-circle fa-stack-2x"></i>
-                                    <i class="fa fa-code fa-stack-1x text-primary skillsIcon" aria-hidden="true"></i>
-                                </span>
-                                <h4>
-                                    <strong class = "SkillsTextTitle">Java</strong>
-                                </h4>
-                                <br>
-                                <p class = "SkillsTextTitleDescription"> Proficent in Java Developement. Currently learning Machine Learning.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <br>
-                </div>
-            </div>
-        </div>
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Flaticons  -->
+	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+	<!-- Owl Carousel -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-        <a name="Portfolio"></a>
-        <div class = "Portfolio">
-            
-		<ul class="portfolio-image">
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+	<div id="colorlib-page">
+		<div class="container-wrap">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
+			<div class="text-center">
+				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
+				<h1 id="colorlib-logo"><a href="index.html">Sruthi Kurada</a></h1>
+				<span class="position">Computer Scientist</span>
+			</div>
+			<nav id="colorlib-main-menu" role="navigation" class="navbar">
+				<div id="navbar" class="collapse">
+					<ul>
+						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
+						<li><a href="#" data-nav-section="about">About</a></li>
+						<li><a href="#" data-nav-section="services">Skills</a></li>
+						<li><a href="#" data-nav-section="awards">Awards</a></li>
+						<li><a href="#" data-nav-section="education">Education</a></li>
+						<li><a href="#" data-nav-section="experience">Experience</a></li>
+						<li><a href="#" data-nav-section="blog">Media</a></li>
+						<li><a href="#" data-nav-section="contact">Contact</a></li>
+					</ul>
+				</div>
+			</nav>
+
+		</aside>
+
+		<div id="colorlib-main">
+			<section id="colorlib-hero" class="js-fullheight" data-section="home">
+				<div class="flexslider js-fullheight">
+					<ul class="slides">
+				   	<li style="background-image: url(images/research-conference.jpg);">
+				   		<div class="overlay"></div>
+				   		<div class="container-fluid">
+				   			<div class="row">
+					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+					   				<div class="slider-text-inner js-fullheight">
+					   					<div class="desc">
+						   					<h1 style="color: white;">Hi! <br>I'm Sruthi</h1>
+						   					<h2 style="color: white;">Problem-solver, Entrepreneur, and Explorer</h2>
+												<p><a  style="color: white;" class="btn btn-primary btn-learn" href = "images/Sruthi-Kurada-Resume.pdf" download>Download CV <i class="icon-download4"></i></a></p>
+											</div>
+					   				</div>
+					   			</div>
+					   		</div>
+				   		</div>
+				   	</li>
+				  	</ul>
+			  	</div>
+			</section>
+
+			<section class="colorlib-about" data-section="about">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">About</span>
+										<h2 class="colorlib-heading">Who Am I?</h2>
+										<p><strong>Hi I'm Sruthi Kurada</strong>. I am a rising senior at AMSA Charter School who is passionate about the application of computer science to aid the healthcare and biotechnology sector. I am currently a student researcher at the BayesMendel Lab in Harvard Medical School working on developing a novel all-cancer risk assessment model. Additionally I am a student researcher in the MIT PRIMES program, working on identifying molecular pathways for the potential drug, Ergothioneine.</p>
+										<p>In addition to research, I am an advocate for democratizing access to STEM education opportunities. Towards this goal, I founded MetroHacks EmpowHer, a year-long team competition for high school girls to create a computer science project that benefits their community. My mission is to encourage more female students to pursue a career in engineering and provide young women an inclusive environment to hone their technical and business skills. Over the past year, the EmpowHer community has grown to over 250 participants and 85 mentors!</p>
+										<p>I look forward to utilizing the entrepreneurial skillset that I developed while leading my own research projects and founding EmpowHer to improve the lives of Americans through education and technology.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
 			
-		<li class="col-md-6" id = "HiveSwarm">
-                    <a href="https://play.google.com/store/apps/details?id=hiveswarm.hiveswarm"><img alt="image" src="Images/HiveSwarmHome.png">
-                    </a>
-                  </li>
-			
-                  <li class="col-md-6">
-                    <a href="https://play.google.com/store/apps/details?id=hiveswarm.hiveswarm">
-                      <div class="decription-wrap">
-			<div class="image-bg">
-			   <p id="descTitle">HiveSwarm</p>
-                           <p class="desc" >An app that enables beekeepers to record and analyze the data from their beehives.</p>
-                        </div>
-		</div>
-                    </a>
-                  </li>
-                  
-                  <li class="col-md-6">
-                    <a title = "Movie App Github Source Code" href = "https://github.com/Sruthik22/MoviesApp">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                          <p class="desc">
-                            An Android app I created that lets users find most popular movies and the top rated movies. Once you click on a movie specific movie poster then it will give you more specific details such as movie title and release date.
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="col-md-6">
-                    <a title = "Movie App Github Source Code" href = "https://github.com/Sruthik22/MoviesApp"><img alt="image" src="Images/PopularMovies.PNG">
-                      
-                    </a>
-                  </li>
-                  <li class="col-md-6">
-                    <a title = "Battleship Github Source Code" href = "#"><img alt="The Battleship code" src="Images/Battleship.png">
-                      
-                    </a>
-                  </li>
-                  <li class="col-md-6">
-                    <a title = "Battleship Github Source Code" href = "https://github.com/Sruthik22/Battleship">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                          <p class="desc">
-                            The game battleship coded in python. There is both a single player mode and a multiplayer mode. The game also has graphics with the help of the graphics module graphics.py
-                          </p>
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-			
-			<li class="col-md-6">
-                    <a title = "Belt for the Blind Video" href = "https://www.youtube.com/watch?v=ogvRFzNWM2w">
-                      <div class="decription-wrap">
-                        <div class="image-bg">
-                          <p class="desc">
-                            A product I designed along with another team mate that helps the blind traverse their surroundings. It guides the user by using a ultrasonic sensor and alerts the user by using a volume component on the side of the bot. We won 3rd place in ProjectCSGirls.
-                          </p>  
-                        </div>
-                      </div>
-                    </a>
-                  </li>
-                  <li class="col-md-6">
-                    <a title = "Belt for the Blind Video" href = "https://www.youtube.com/watch?v=ogvRFzNWM2w"><img src="Images/BeltForTheBlind.PNG" alt="Picture of the Limits of what a Product like the Blind Belt could do">
-                      
-                    </a>
-                  </li>
-                </ul>
-                <!--/.PORTFOLIO IMAGE END-->
-		</div>
+			<section class="colorlib-services" data-section="services">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Skills</span>
+							<h2 class="colorlib-heading">My expertise</h2>
+						</div>
+					</div>
+					<div class="row row-pt-md">
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-1">
+								<span class="icon">
+									<i class="icon-bulb"></i>
+								</span>
+								<div class="desc">
+									<h3>Programming: Python & Java</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-3">
+								<span class="icon">
+									<i class="icon-data"></i>
+								</span>
+								<div class="desc">
+									<h3>Data Science & Machine Learning</h3>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 text-center animate-box">
+							<div class="services color-4">
+								<span class="icon">
+									<i class="icon-phone3"></i>
+								</span>
+								<div class="desc">
+									<h3>iOS & Android Development</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-        
+			<section class="colorlib-about" data-section="awards">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="col-md-12">
+									<div class="about-desc">
+										<span class="heading-meta">Awards</span>
+										<h2 class="colorlib-heading">Awards & Achievements</h2>
+										<ul>
+											<li>Google Science Fair Top 100 International Winner and Massachusetts State Winner</li>
+											<li>Published research in IEEE/ACM CHASE Conference Proceedings 2020</li>
+											<li>Published MIT IEEE Research Paper in collaboration with WPI Data Science Lab</li>
+											<li>Published in Columbia Junior Science Journal</li>
+											<li>FRC New England District Championship Chairman's award, Invited to 2019 Global Championship</li>
+											<li>Taco Bell Live Más Scholarship Winner ($10,000) (Top 0.5% Nationally - Ages 16-26)</li>
+											<li>2021, 2020 NCWIT National Honorable Mention (Top 400), Massachusetts Winner</li>
+											<li>President Volunteer Service Award - Gold</li>
+											<li>Math Kangaroo 1st Place National Winner</li>
+											<li>Technovation National Semifinalist & NE winner</li>
+											<li>AIME Qualifier (Scored top 10% of AIME scores)</li>
+											<li>3rd Place Grand Prize Winner - Project CS GIRLS</li>
+											<li>Jr. Black Belt in Uechi Ryu Karate</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
+			<section class="colorlib-education" data-section="education">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Education</span>
+							<h2 class="colorlib-heading animate-box">Education</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+							<div class="fancy-collapse-panel">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingOne">
+									        <h4 class="panel-title">
+									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">High School Secondary Education
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+									         <div class="panel-body">
+									         	<p>Currently a rising senior at the Advanced Math and Science Academy Charter School in Marlborough, MA. </p>
+									         	<p>GPA: 4.68/5.00 – Honor Roll</p>
+													<ul>
+														<li>President of Varsity Math Team</li>
+														<li>Co-Founder of the Cloud Computing Club</li>
+														<li>Member of Girls Varsity Tennis Team</li>
+													</ul>
+									         </div>
+									    </div>
+									</div>
+									<!--<div class="panel panel-default">
+									    <div class="panel-heading" role="tab" id="headingTwo">
+									        <h4 class="panel-title">
+									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Bachelor Degree of Computer Science
+									            </a>
+									        </h4>
+									    </div>
+									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+									        <div class="panel-body">
+									            <p>Far far away, behind the word <strong>mountains</strong>, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+													<ul>
+														<li>Separated they live in Bookmarksgrove right</li>
+														<li>Separated they live in Bookmarksgrove right</li>
+													</ul>
+									        </div>
+									    </div>
+									</div>-->
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
+			<section class="colorlib-experience" data-section="experience">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Experience</span>
+							<h2 class="colorlib-heading animate-box">Research Experience</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					               </div>
+					               <div class="timeline-label">
+					               	<h2>Applied Audio Machine Learning Research <span>2018-Current</span></h2>
+					               	<h3>Data Science Research Lead</h3>
+					               	<h4>Parkinson’s Disease Diagnostic Classifier (2019 - Present):</h4>
+					               	<p>Developed a classifier that leverages patient voice data to diagnose Parkinson’s Disease using a novel, generalizable feature extraction technique. The technology achieved 87% accuracy and outperformed current clinical diagnostic methods</p>
+					               	<ul>
+										<li>First authored a conference paper for presentation at the <a href = "bit.ly/pd-classification">2020 IEEE CHASE Conference</a></li>
+									</ul>
+									<br>
+									<h4>Generalizable Audio Classification Pipeline (2018 - 2019):</h4>
+					                  <p> Built a state-of-the-art Audio Classifier on the UrbanSound8k dataset that leveraged unique preprocessing and data augmentation approaches (>99% accuracy) – previously published papers only reported 74% accuracy</p>
+									<ul>
+										<li>Selected as Google Science Fair Top 100 International Semifinalist and Massachusetts Winner</li>
+										<li>Selected as Broadcom MASTERS National Finalist</li>
+										<li>Published this research in The Columbia University Junior Science Journal <a href = "https://static1.squarespace.com/static/56243822e4b0007a000ea37e/t/5ce95c48419202830c877e9e/1558797385511/07.pdf">(2019 Edition)</a></li>
+									</ul>
+					               </div>
+					            </div>
+					         </article>
 
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
 
+					               <div class="timeline-icon color-1"></div>
 
+					               <div class="timeline-label">
+					                  <h2>Bayes Mendel Lab at Harvard School of Public Health <span>2020 - Current</span></h2>
+					                  <h3>Computational Genomics Researcher</h3>
+					                  <p>Developing a cancer prognostic model including many subtypes for accurate, efficient risk analysis.</p>
+					               </div>
+					            </div>
+					         </article>
 
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					               </div>
+					               <div class="timeline-label">
+					               	<h2>MIT PRIMES Student Research at Biomedical Cybernetics Laboratory <span>2021-Current</span></h2>
+					               	<h3>Computational Biology Researcher</h3>
+					                  <p>Discovering the role of Ergothioneine on the mouse genome through its effect on disordered proteins.</p>
+					               </div>
+					            </div>
+					         </article>
 
-    
-</body>
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					               </div>
+					               <div class="timeline-label">
+					               	<h2>WPI Data Science Institute <span>Summer 2018</span></h2>
+					               	<h3>Summer Research Intern (Research Experience for Undergraduates)</h3>
+					                  <p>Developed deep learning strategies that used Recurrent Neural Networks to handle missing data in patient healthcare records</p>
+					                  <ul>
+					                  	<li>Research accepted to the 2018 NSF Symposium and ranked 1st in presentation quality</li>
+										<li>Presented research at <a href = "http://bit.ly/missing-values-healthcare">2018 IEEE MIT Undergraduate Research Technology Conference</a></li>
+									</ul>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-9 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<h2 class="colorlib-heading animate-box">Industry Experience & Extracurricular Activities</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+				         <div class="timeline-centered">
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-2">
+					               </div>
+					               <div class="timeline-label">
+					               	<h2>MetroHacks <span>2018-Current</span></h2>
+					               	<h3>MetroHacks EmpowHer Executive Director</h3>
+					               	<h4>MetroHacks EmpowHer (2020 - Current):</h4>
+					               	<p>Launched <a href = "https://metrohacks.org/empowher/">EmpowHer</a> in 2020, a national team competition for high school girls to create a CS-based project addressing an issue in their community. I grew the competition to include over 250 student participants and 85 mentors across the country during the COVID-19 pandemic. Additionally, I have brokered partnerships with companies including Microsoft, Staples, Jane Street, Target, and Verizon that are committed to supporting our mission and growing EmpowHer.</p>
+
+					               	<ul>
+										<li><a href = "https://youtu.be/06lKLKbvY1w">Watch</a> the Founding Journey of EmpowHer</li>
+									</ul>
+
+					               	<br>
+					               	<h4>MetroHacks Hackathons (2018 - 2020):</h4>
+					               	<p>Scaled <a href = "https://metrohacks.org/">MetroHacks</a>, a non-profit organization dedicated to improving practical STEM education, across the entire East Coast</p>
+					               	<ul>
+										<li>Helped raise >$100K through partnerships with several Fortune 500 companies including Microsoft and Staples</li>
+									</ul>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-3">
+					               </div>
+					               <div class="timeline-label">
+					               	<h2>MITRE <span>2019-2020</span></h2>
+					               	<h3>Innovation and Technology Intern</h3>
+					               	<h4>Predicting Video Conferencing Failure (Summer 2020):</h4>
+					                <p>Increasing workplace productivity through developing an algorithm to predict video conferencing failure and providing alternative methods for collaboration</p>
+					                <ul>
+										<li>Winner of the 2020 MITRE AI Challenge: Developed ML detection software to protect MITRE against phishing attacks</li>
+									</ul>
+									<br>
+									<h4>Virtual Hallway Innovation Project (Summer 2019):</h4>
+									<p>Prototyped an employee identification system using Optical Character
+Recognition (OCR) on employee badges and facial recognition using live feed video data</p>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-4">
+					               </div>
+					               <div class="timeline-label">
+					               	<h2>FIRST Robotics Competition (FRC) <span>2018 - 2019</span></h2>
+					               	<h3>Outreach Team Lead</h3>
+					                  <p>Led development of the <a href = "https://steamsplash.org/">Steam Splash</a> educational platform to teach STEM to elementary students.</p>
+					                  <ul>
+					                  	<li>Winner of New England District Championship (Chairman’s award)</li>
+					                  	<li>Invited to 2019 Global Championship</li>
+									</ul>
+					               </div>
+					            </div>
+					         </article>
+
+					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
+					            <div class="timeline-entry-inner">
+					               <div class="timeline-icon color-none">
+					               </div>
+					            </div>
+					         </article>
+					      </div>
+					   </div>
+				   </div>
+				</div>
+			</section>
+
+			<section class="colorlib-blog" data-section="blog">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Media</span>
+							<h2 class="colorlib-heading">News Articles</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="https://www.cambridgeday.com/2020/10/18/local-teens-lead-national-steminism-event-grown-by-team-behind-24-hour-hackathons/?fbclid=IwAR3uPhyhQGX08XMJA9DLS8Lm0j2hRsEGSqYrZhzAZvoo8EohDLCw1wobxKQ" class="blog-img"><img src="images/metrohacks.jpeg" class="img-responsive" alt=""></a>
+								<div class="desc">
+									<span><small>October 18, 2020 </small> | <small> Community Service </small></span>
+									<h3><a href="https://www.cambridgeday.com/2020/10/18/local-teens-lead-national-steminism-event-grown-by-team-behind-24-hour-hackathons/?fbclid=IwAR3uPhyhQGX08XMJA9DLS8Lm0j2hRsEGSqYrZhzAZvoo8EohDLCw1wobxKQ">EmpowHer Interview</a></h3>
+									<p>Spoke to Annie Benett about the gender disparity in computer science and the necessity for inclusivity</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="https://indianewengland.com/2020/09/sruthi-kurada-takes-on-stem-challenge-with-her-non-profit-metrohacks/" class="blog-img"><img src="images/team.svg" class="img-responsive" alt=""></a>
+								<div class="desc">
+									<span><small>September 15, 2020 </small> | <small> Community Service </small></span>
+									<h3><a href="https://indianewengland.com/2020/09/sruthi-kurada-takes-on-stem-challenge-with-her-non-profit-metrohacks/">EmpowHer Launch</a></h3>
+									<p>Launched EmpowHer, a year-long competition for high school girls to create a computer science project that benefits their community</p>
+									<br>
+									<br>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
+							<div class="blog-entry">
+								<a href="https://www.cambridgeday.com/2018/05/20/at-a-24-hour-hackathon-of-the-brightest-kids-school-shootings-are-dark-spark-to-innovation/" class="blog-img"><img src="images/proTECH.jpeg" class="img-responsive" alt="Sruthi Kurada looks Saturday over her team’s plans for an app meant to help teachers get students to safety during a school shooting."></a>
+								<div class="desc">
+									<span><small>May 20, 2018 </small> | <small> Hackathon Project </small></span>
+									<h3><a href="https://www.cambridgeday.com/2018/05/20/at-a-24-hour-hackathon-of-the-brightest-kids-school-shootings-are-dark-spark-to-innovation/">proTECH</a></h3>
+									<p>Designed proTECH, an app that helps teachers and children escape schools during school shootings</p>
+									<br>
+									<br>
+									<br>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4 col-sm-6 center animate-box" data-animate-effect="fadeInRight">
+							<div class="blog-entry">
+								<a href="https://www.masstlc.org/middle-school-students-tackle-a-global-problem/" class="blog-img"><img src="images/hiveswarm.jpeg" class="img-responsive" alt=""></a>
+								<div class="desc">
+									<span><small>November 16, 2017 </small> | <small> Mobile App </small></span>
+									<h3><a href="https://www.masstlc.org/middle-school-students-tackle-a-global-problem/">HiveSwarm</a></h3>
+									<p>Designed HiveSwarm, an Android app that enables beekeepers to save hive data in the cloud, and makes insights helping them be more efficient in their keeping methods</p>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+
+			<section class="colorlib-contact" data-section="contact">
+				<div class="colorlib-narrow-content">
+					<div class="row">
+						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
+							<span class="heading-meta">Get in Touch</span>
+							<h2 class="colorlib-heading">Contact</h2>
+						</div>
+					</div>
+					<div class="row">
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-globe"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="mailto:sruthi.kurada1@gmail.com">sruthi.kurada1@gmail.com</a></p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-map"></i>
+								</div>
+								<div class="colorlib-text">
+									<p>1 Pine Brook Lane, Littleton, MA 01460</p>
+								</div>
+							</div>
+
+							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
+								<div class="colorlib-icon">
+									<i class="icon-phone"></i>
+								</div>
+								<div class="colorlib-text">
+									<p><a href="tel://">(978) 795-9032</a></p>
+								</div>
+							</div>
+					</div>
+				</div>
+			</section>
+
+		</div><!-- end:colorlib-main -->
+	</div><!-- end:container-wrap -->
+	</div><!-- end:colorlib-page -->
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- Owl carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Counters -->
+	<script src="js/jquery.countTo.js"></script>
+	
+	
+	<!-- MAIN JS -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
+
